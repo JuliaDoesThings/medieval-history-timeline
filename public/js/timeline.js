@@ -1,9 +1,13 @@
 // import * as fs from 'fs'; // or 
-import fs from 'fs';
+//import { fs } from 'node:fs';
+import { loadData } from './load-data.js';
 // import data from '../timeline.json';
 
-let fileContent = fs.readFileSync("../timeline.json", "utf8");
-let myParse = JSON.parse(fileContent);
+//let fileContent = fs.readFileSync("../timeline.json", "utf8");
+//let myParse = JSON.parse(fileContent);
+
+
+console.log(loadData());
 
 let Points = [];
 
