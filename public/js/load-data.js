@@ -1,5 +1,5 @@
-
-import { useState } from "react";
+// import mime from '../../node_modules/mime';
+import { useState } from "../../node_modules/react";
 
 
 function loadData() 
